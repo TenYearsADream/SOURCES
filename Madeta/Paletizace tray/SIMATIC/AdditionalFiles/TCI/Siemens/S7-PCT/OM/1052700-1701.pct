@@ -46,6 +46,7 @@ The application checks the file against editing and does not use the file anymor
       <Parameter Name="data_storage_upload_enable" Value="0" Type="Int32" />
       <Parameter Name="Identification" Value="{1052689-3092}1" Type="String" />
       <Parameter Name="InputAddressLength" Value="16" Type="Byte" />
+      <Parameter Name="InspectLevel" Value="4" Type="Byte" />
       <Parameter Name="Mode" Value="3" Type="Byte" />
       <Parameter Name="OutputAddressLength" Value="16" Type="Byte" />
       <Parameter Name="TimeStampMode" Value="0" Type="Byte" />
@@ -355,6 +356,8 @@ The application checks the file against editing and does not use the file anymor
           <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
           <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -382,7 +385,7 @@ The application checks the file against editing and does not use the file anymor
           <Parameter Name="Identification" Value="7f3edb72-83c6-45e4-8a42-bf36bd4e8203" Type="String" />
           <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -403,8 +406,6 @@ The application checks the file against editing and does not use the file anymor
           <Parameter Name="V_Direction_Record_12" Value="1" Type="Byte" />
           <Parameter Name="V_Direction_Record_13" Value="1" Type="Byte" />
           <Parameter Name="V_Direction_Record_14" Value="1" Type="Byte" />
-          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
-          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
           <Parameter Name="V_Direction_Record_2" Value="1" Type="Byte" />
           <Parameter Name="V_Direction_Record_3" Value="1" Type="Byte" />
           <Parameter Name="V_Direction_Record_4" Value="1" Type="Byte" />
@@ -426,7 +427,7 @@ The application checks the file against editing and does not use the file anymor
           <Parameter Name="Identification" Value="c234ee64-7a2d-407d-9e31-b3ba87566ca8" Type="String" />
           <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -438,8 +439,11 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="fc453993-5f50-4a11-ae5c-831ed78d661d" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -451,8 +455,11 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="24320748-d4ca-448f-bafc-86f907f7e357" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -464,8 +471,13 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="afe6c089-6875-4a25-bb6f-8b975bd1317c" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_13" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_14" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -477,8 +489,14 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="f9548b9d-3cb2-46ad-a402-567391c86491" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_12" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_13" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_14" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -490,8 +508,13 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="4eecb202-f126-4c19-aa68-1e2987ad1d41" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_13" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_14" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -503,8 +526,13 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="7fd0f6a3-8ab3-4cf7-946a-0022a8161645" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
+          <Parameter Name="V_Direction_Record_13" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_14" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_15" Value="1" Type="Byte" />
+          <Parameter Name="V_Direction_Record_16" Value="1" Type="Byte" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -540,7 +568,7 @@ The application checks the file against editing and does not use the file anymor
           <Parameter Name="Identification" Value="cb9cd3cd-fa05-44cc-9fa8-fe170843397c" Type="String" />
           <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -552,8 +580,9 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="3cd80ec8-26d2-4358-9a2c-b61315b3464d" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -565,8 +594,9 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="453011d1-04be-430c-9912-d5b8ad069fe5" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -578,8 +608,9 @@ The application checks the file against editing and does not use the file anymor
         <ParameterList>
           <Parameter Name="ConfigObjectType" Value="7" Type="Int32" />
           <Parameter Name="Identification" Value="0f71c493-8055-40b0-a666-0993b7c95b31" Type="String" />
+          <Parameter Name="MasterPortClass__" Value="0" Type="Byte" />
           <Parameter Name="Name" Value="BNI IOL-310-000-K025" Type="String" />
-          <Parameter Name="TabIndex" Value="0" Type="Int32" />
+          <Parameter Name="TabIndex" Value="1" Type="Int32" />
         </ParameterList>
       </Configuration>
     </IODevice>
@@ -593,14 +624,14 @@ The application checks the file against editing and does not use the file anymor
           <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
         </Transforms>
         <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <DigestValue>JI1UqmBO3VmyW/9/o7lWl8fArig=</DigestValue>
+        <DigestValue>pWBHPnIdjjMQeVbdsrTjqVqO4ms=</DigestValue>
       </Reference>
     </SignedInfo>
-    <SignatureValue>lJdQjmMzv3NNzlqaEuyy5ug+fIObpQxe1ZIoJ6VmCaQikOfRYacPMXn5aYoLTtDc2w/PzHJ4bMMV5nHEwfmnA+mcthCA+PIjSIyWSA/YLWvR4s5y0aVPQogTabihAhm/VBvJYyhqrBvPJ4HGAcmEnPXBy1/FcEVhTx6IIj9noz0=</SignatureValue>
+    <SignatureValue>Vj+wKPSxf6S4qCtktl9AKjTi4qQwe1ykERcUjrgVwKotzuNJJ9u+V8KHbJHt8DnKNGkECjyVNOVRt5guO9uBHODoG+p8gLOZCrsinbU9wwUN9Aeiw0qbEXXuuUHccuhhmfta76qqDArciVDraCvUldCQwmdMUmpdDT/MxG4uihM=</SignatureValue>
     <KeyInfo>
       <KeyValue>
         <RSAKeyValue>
-          <Modulus>oYSnP6ZeNiW6ORVZmqhK8H0g88/YN69K0b3MNQWkmHSXeNxFIpr9XNJrXR99934JZZjR883OdhEoqpVGveKuUPzcVALf//GBh8EhPIWbXhA6tuNz+q144L9/AvWGf3QI2Gz7mQamEBNSBUOW75lOAlTjTH7R77ZxF8ScrZMMEeU=</Modulus>
+          <Modulus>1VLDXAQMivu4LFhUpuKhBF0Mx6wm5vawfgkyoARHNBsWgY1OUoq1mfXam2pviv5pyvGIkwZ1XrXgfsZTLgK9GD15TaPvZ0fT/Ys5wov/Xp4PFpr9ZVXCPdysDq8NlvpkaM2MjPmeXNTIz6+WaqIijL1D/NZg6vRFxtcHMHjE+0U=</Modulus>
           <Exponent>AQAB</Exponent>
         </RSAKeyValue>
       </KeyValue>

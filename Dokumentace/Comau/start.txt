@@ -1,0 +1,11 @@
+Velení PLC Omron Robotu Scara
+1. No DRIVE OFF       ....%W5.01 .......pri prepnutí klícku jak ruka tak REMOTE stále v 1 tedy nahozeno
+2. No Hold                %W5.03 .......pri prepnutí klicku jak ruka tak REMOTE stále v 1 tedy nahozeno
+3. Drive On               %W5.00... ....pri splnení predchozích podmínek velím pulsne cca0,5s nahodí pohony.
+4. Start                  %W5.02... ....po nahození pohonu startuji program  ,opet pulsem 0,5s spustí program.
+ 
+ 
+5. Pokud prerušuji program , opet pulsne , preruším  No Hold %W5.03 (program pause)
+6. Pokud schazuji pohony , pulsne preruším Drive Off %W501(program stop)
+ 
+V rucním modu musí být splneny podmínky 1 , 2.
