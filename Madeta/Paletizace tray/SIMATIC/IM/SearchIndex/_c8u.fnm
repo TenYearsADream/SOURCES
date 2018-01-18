@@ -1,4 +1,4 @@
-þÿÿÿ±###id###VisulizationRootBrowsableId###TargetIdNameComment-###SearchableNonTechnicalFieldNamesOfDocument###ParentIds###ImmediateParentIdEntryDisplayName###ReferenceFieldIds###SearchFilterIdsTitleLanguageVersion###UpdatableParentIdInterfaceMember_NameInterfaceMember_DatatypeInterfaceMember_ValueInterfaceMember_CommentNetwork titleLADFBD CodeInstance DBAcknowledgementModelIdAcknowledgedText
+þÿÿÿ²###id###VisulizationRootBrowsableId###TargetIdNameComment-###SearchableNonTechnicalFieldNamesOfDocument###ParentIds###ImmediateParentIdEntryDisplayName###ReferenceFieldIds###SearchFilterIdsTitleLanguageVersion###UpdatableParentIdInterfaceMember_NameInterfaceMember_DatatypeInterfaceMember_ValueInterfaceMember_CommentNetwork titleLADFBD CodeInstance DBAcknowledgementModelIdAcknowledgedText
 ComingText	GoingTextCommonAlarmClassAcknowledgementGroupTextInvalidAttempts	ValidDaysWarningDaysGenerationsMinNumPsswdStationNamePartnerNameNodeName	CycleUnit	CycleTimeTextNumber	ShortName
 LogoutTimeTagAddressPanelInfoAcquisitionTriggerModeAcquisitionCycleDataTypeCodingPlcNameControllerTag	JobNumber
 StartValue	BackColor	GridColorAlarmSourceCaptionColumnTextAckGroupColumnTextAlarmStateColumnTextAlarmTextColumnTextClassNameColumnTextDateColumnTextDeviceColumnTextDiagnosableColumnTextNumberColumnTextTimeSortByTimeDirectionTableBackColor	TableFontTableForeColor	Functions	EdgeStyle
@@ -8,4 +8,4 @@ TriggerTag	AlarmTextPlcAcknowledgementBitAddressTriggerBitAddressPicture
 DataFormatFormatPatternProcessValueUnitAdaptPictureAuthorizationPictureListAddressAccessMode
 ConnectionColorEndStyle	FillStyleLineEndShapeStyle
 StartStyleStyleAuthorFamilyUser-defined IDCaptionTextHelpText
-PictureOff
+PictureOffSoftkeyImage
