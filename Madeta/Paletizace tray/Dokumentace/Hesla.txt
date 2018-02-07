@@ -1,0 +1,2 @@
+Ovíjeèka:user:s,heslo:421
+Robot1:user:tu,heslo:tu
