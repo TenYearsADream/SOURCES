@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='LogFile.xsl'?>
+<LogFile culture="en" projectName="IoT" dateText="Migration date:" typeText="Type" messageText="Message" timeText="Time" dateTime="3/28/2018">
+  <ProductVersions>
+    <ProductVersion Name="Totally Integrated Automation Portal" Version="V15" Hidden="False" ID="Siemens.Simatic.Portal:15.00.00.00" Type="ServicePack">
+      <IntegratesOptions>
+        <ProductVersion Name="TIA Portal Openness" Version="V13 SP1" Hidden="True" ID="Siemens.Simatic.Openness:13.00.01.00" Type="OptionPackage" />
+        <ProductVersion Name="TIA Portal Openness" Version="V15" Hidden="False" ID="Siemens.Simatic.Openness:15.00.00.00" Type="OptionPackage" />
+        <ProductVersion Name="TIA Portal Openness Pilot" Version="V15" Hidden="True" ID="Siemens.Simatic.Openness.Pilot:15.00.00.00" Type="OptionPackage" />
+      </IntegratesOptions>
+    </ProductVersion>
+    <ProductVersion Name="STEP 7 Professional" Version="V15" Hidden="False" ID="Siemens.Simatic.STEP7.Professional:15.00.00.00" Type="ServicePack">
+      <ContainsEditions>
+        <ProductVersion Name="STEP 7 Basic" Version="V15" Hidden="False" ID="Siemens.Simatic.STEP7.Basic:15.00.00.00" Type="ServicePack" />
+      </ContainsEditions>
+    </ProductVersion>
+    <ProductVersion Name="WinCC Advanced" Version="V15" Hidden="False" ID="Siemens.Simatic.Hmi.Advanced:15.00.00.00" Type="ServicePack">
+      <ContainsEditions>
+        <ProductVersion Name="WinCC Comfort" Version="V15" Hidden="False" ID="Siemens.Simatic.Hmi.Comfort:15.00.00.00" Type="ServicePack">
+          <ContainsEditions>
+            <ProductVersion Name="WinCC Basic" Version="V15" Hidden="False" ID="Siemens.Simatic.Hmi.Basic:15.00.00.00" Type="ServicePack" />
+          </ContainsEditions>
+        </ProductVersion>
+      </ContainsEditions>
+    </ProductVersion>
+  </ProductVersions>
+  <LogEntry type="CriticalError" dateTime="8:35:24 AM">
+    <Message>Migration log</Message>
+    <LogEntry type="CriticalError" dateTime="8:35:26 AM">
+      <Message>The language used by the project is incompatible with your windows settings. To migrate the project, you will need to change the "Language for non-Unicode programs" to Němčina (Německo), using the Control Panel.</Message>
+    </LogEntry>
+    <LogEntry type="Information" dateTime="8:35:24 AM">
+      <Message>Summary</Message>
+      <LogEntry type="Information" dateTime="8:35:26 AM">
+        <Message>Project exported with STEP 7 version V5.6</Message>
+      </LogEntry>
+    </LogEntry>
+  </LogEntry>
+</LogFile>
