@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\vitez\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\
+C:\Users\vitez\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Release\
 Panel
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\vitez\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\App.xaml
 11151548125
 
