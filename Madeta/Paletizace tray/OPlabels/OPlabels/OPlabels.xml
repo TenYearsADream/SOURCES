@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Info>
+    <Name>OPlabels</Name>
+    <Author></Author>
+    <Comment></Comment>
+  </Info>
+  <Device>
+    <Name>OP</Name>
+    <Type>KTP600Basic</Type>
+    <Keys>
+      <Key1>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_067.png</Key1>
+      <Key2>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_057.png</Key2>
+      <Key3>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_049.png</Key3>
+      <Key4>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_049.png</Key4>
+      <Key5>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_057.png</Key5>
+      <Key6>C:\Program Files\Siemens\SIMATIC HMI Label Creator V3.0\Library\LabCre-Icon_067.png</Key6>
+    </Keys>
+  </Device>
+</Project>
