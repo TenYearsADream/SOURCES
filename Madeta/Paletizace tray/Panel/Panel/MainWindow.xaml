@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Panel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="PANEL PALETIZACE" Height="450" Width="800" ResizeMode="NoResize" LocationChanged="Window_LocationChanged">
+    <Grid x:Name="obsah">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -15,7 +15,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="231" Height="104"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="231" Height="104" />
         <Button Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Width="231" Height="104" Grid.Column="1" Margin="0"/>
         <Viewbox Grid.Column="1" Grid.Row="1">
             <TextBox  TextWrapping="Wrap" Text="TextBox" />
