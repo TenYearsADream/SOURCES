@@ -30,7 +30,7 @@ namespace Panel
             this.Width = System.Windows.SystemParameters.WorkArea.Width;
             this.Height = System.Windows.SystemParameters.WorkArea.Height/2;
             this.Left = 0;
-            this.Top = System.Windows.SystemParameters.WorkArea.Height / 2;
+            this.Top = System.Windows.SystemParameters.WorkArea.Height / 2;  
 
           
 
