@@ -21,7 +21,7 @@
             <TextBox  TextWrapping="Wrap" Text="TextBox" />
         </Viewbox>
         <Viewbox Grid.Row="1" >
-            <Label Content="Label"  Padding="0" />
+            <Label x:Name="Label1" Content="Label"  Padding="0" />
         </Viewbox>
 
 

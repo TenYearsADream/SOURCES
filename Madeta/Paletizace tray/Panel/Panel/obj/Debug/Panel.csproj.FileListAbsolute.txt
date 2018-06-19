@@ -14,7 +14,6 @@ C:\Users\vitez\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\D
 C:\Users\vitez\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.pdb
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\bin\Debug\Panel.exe
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\bin\Debug\Panel.pdb
-C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.csprojAssemblyReference.cache
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\MainWindow.g.cs
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\App.g.cs
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel_MarkupCompile.cache
@@ -26,3 +25,4 @@ C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\D
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.csproj.CoreCompileInputs.cache
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.exe
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.pdb
+C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\bin\Debug\Panel.exe.config

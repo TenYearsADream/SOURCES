@@ -1,4 +1,5 @@
-﻿using System;
+﻿using S7.Net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Panel
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -30,10 +32,28 @@ namespace Panel
             this.Width = System.Windows.SystemParameters.WorkArea.Width;
             this.Height = System.Windows.SystemParameters.WorkArea.Height/2;
             this.Left = 0;
-            this.Top = System.Windows.SystemParameters.WorkArea.Height / 2;  
+            this.Top = System.Windows.SystemParameters.WorkArea.Height / 2;
 
-          
+            System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
+            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            dispatcherTimer.Start();
 
+            
+
+
+        }
+
+        private void dispatcherTimer_Tick(object sender, EventArgs e)
+        {
+            using(Plc plc = new Plc(CpuType.S71200, "192.168.0.1", 0, 1))
+            {
+                plc.Open();
+
+                var result = plc.Read("DB1.DBW0");
+                Label1.Content = result;
+
+            }
         }
 
         private void MainWindow_SourceInitialized(object sender, EventArgs e)
