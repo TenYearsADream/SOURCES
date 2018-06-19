@@ -21,6 +21,11 @@ namespace Panel
     /// </summary>
     public partial class MainWindow : Window
     {
+        object _syncRoot = new object();
+        const string PLC_IP = "192.168.0.1";
+
+        const short SLOT = 1;
+        const short RACK = 0;
 
         public MainWindow()
         {
@@ -39,20 +44,26 @@ namespace Panel
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
 
-            
 
+           // ResizeMode = "NoResize" 
 
         }
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            using(Plc plc = new Plc(CpuType.S71200, "192.168.0.1", 0, 1))
+            lock (_syncRoot)
             {
-                plc.Open();
+                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                {
+                    plc.Open();
 
-                var result = plc.Read("DB1.DBW0");
-                Label1.Content = result;
+                    var result = plc.Read("DB1.DBW0");
+                    Label_linka_1.Content = result;
 
+                    result = plc.Read("DB1.DBW2");
+                    Label_linka_2.Content = result;
+
+                }
             }
         }
 
@@ -89,6 +100,43 @@ namespace Panel
                     break;
             }
             return IntPtr.Zero;
+        }
+
+        private void Button_linka_2_Click(object sender, RoutedEventArgs e)
+        {
+            lock (_syncRoot)
+            {
+                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                {
+                    plc.Open();
+
+                    var result = plc.Read("DB1.DBW0");
+                    Label_linka_1.Content = result;
+
+                    result = plc.Read("DB1.DBW2");
+                    Label_linka_2.Content = result;
+
+                }
+            }
+        }
+
+        private void Button_linka_1_Click(object sender, RoutedEventArgs e)
+        {
+            lock (_syncRoot)
+            {
+                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                {
+                    plc.Open();
+
+                    var result = plc.Read("DB1.DBW0");
+                    Label_linka_1.Content = result;
+
+                    result = plc.Read("DB1.DBW2");
+                    Label_linka_2.Content = result;
+
+                }
+            }
+
         }
     }
 }

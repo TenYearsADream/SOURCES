@@ -5,23 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Panel"
         mc:Ignorable="d"
-        Title="PANEL PALETIZACE" Height="450" Width="800" ResizeMode="NoResize" LocationChanged="Window_LocationChanged">
+        Title="PANEL PALETIZACE" Height="450" Width="800" ResizeMode = "NoResize">
     <Grid x:Name="obsah">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition MaxHeight="100"/>
+            <RowDefinition MaxHeight="200"/>
+            <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="231" Height="104" />
-        <Button Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Width="231" Height="104" Grid.Column="1" Margin="0"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Button_linka_2"   Grid.Column="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Click="Button_linka_2_Click" >
+                <Viewbox >
+                    <Label x:Name="Info_Button_linka_2" Content="Vyjetí linky 2"   Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+                </Viewbox>
+            </Button>
+            <Viewbox Grid.Column="1">
+                <Label x:Name="Info_linka_2" Content="Linka 2 prázdná"   Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="#FF1CF906"/>
+            </Viewbox>
+            </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Column="0">
+                <Label x:Name="Info_linka_1" Content="Linka 1 prázdná"   HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="#FF1CF906" />
+            </Viewbox>
+            <Button x:Name="Button_linka_1"   Grid.Column="1" Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Click="Button_linka_1_Click">
+                <Viewbox >
+                    <Label x:Name="Info_Button_linka_1" Content="Vyjetí linky 1"   Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+                </Viewbox>
+            </Button>
+        </Grid>
+
+       
         <Viewbox Grid.Column="1" Grid.Row="1">
-            <TextBox  TextWrapping="Wrap" Text="TextBox" />
+            <Label  Content="Vyrobeno na Bosch 1:"  Padding="0" />
         </Viewbox>
         <Viewbox Grid.Row="1" >
-            <Label x:Name="Label1" Content="Label"  Padding="0" />
+            <Label  Content="Vyrobeno na Bosch 2:"  Padding="0" />
+        </Viewbox>
+        <Viewbox Grid.Column="1" Grid.Row="2">
+            <Label x:Name="Label_linka_2" Content="Label"  Padding="0" />
+        </Viewbox>
+        <Viewbox Grid.Row="2" >
+            <Label x:Name="Label_linka_1" Content="Label"  Padding="0" />
         </Viewbox>
 
 
