@@ -40,7 +40,7 @@
                 <Label x:Name="Info_linka_1" Content="Linka 1 prázdná"   HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="#FF1CF906" />
             </Viewbox>
             <Button x:Name="Button_linka_1"   Grid.Column="1" Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Click="Button_linka_1_Click">
-                <Viewbox >
+                <Viewbox>
                     <Label x:Name="Info_Button_linka_1" Content="Vyjetí linky 1"   Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
                 </Viewbox>
             </Button>
@@ -54,10 +54,10 @@
             <Label  Content="Vyrobeno na Bosch 2:"  Padding="0" />
         </Viewbox>
         <Viewbox Grid.Column="1" Grid.Row="2">
-            <Label x:Name="Label_linka_2" Content="Label"  Padding="0" />
+            <Label x:Name="Label_linka_1" Content="Label"  Padding="0" />
         </Viewbox>
         <Viewbox Grid.Row="2" >
-            <Label x:Name="Label_linka_1" Content="Label"  Padding="0" />
+            <Label x:Name="Label_linka_2" Content="Label"  Padding="0" />
         </Viewbox>
 
 

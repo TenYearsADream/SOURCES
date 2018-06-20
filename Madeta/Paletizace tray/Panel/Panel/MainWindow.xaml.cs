@@ -22,9 +22,9 @@ namespace Panel
     public partial class MainWindow : Window
     {
         object _syncRoot = new object();
-        const string PLC_IP = "192.168.0.1";
+        const string PLC_IP = "10.52.90.166";
 
-        const short SLOT = 1;
+        const short SLOT = 2;
         const short RACK = 0;
 
         public MainWindow()
@@ -53,15 +53,31 @@ namespace Panel
         {
             lock (_syncRoot)
             {
-                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                try
                 {
-                    plc.Open();
+                    using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
+                    {
+                        plc.Open();
 
-                    var result = plc.Read("DB1.DBW0");
-                    Label_linka_1.Content = result;
+                        var result = plc.Read("DB14.DBD352");
+                        Label_linka_1.Content = result;
 
-                    result = plc.Read("DB1.DBW2");
-                    Label_linka_2.Content = result;
+                        result = plc.Read("DB16.DBD352");
+                        Label_linka_2.Content = result;
+
+
+
+                        Info_linka_1.Visibility = Convert.ToBoolean(plc.Read("DB11.DBX676.4")) ? Visibility.Visible : Visibility.Hidden;
+                        Info_linka_2.Visibility = Convert.ToBoolean(plc.Read("DB19.DBX680.1")) ? Visibility.Visible : Visibility.Hidden;
+
+
+
+                        Button_linka_1.Background = Convert.ToBoolean(plc.Read("DB11.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+                        Button_linka_2.Background = Convert.ToBoolean(plc.Read("DB19.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+                    }
+                }
+                catch(Exception)
+                {
 
                 }
             }
@@ -102,24 +118,6 @@ namespace Panel
             return IntPtr.Zero;
         }
 
-        private void Button_linka_2_Click(object sender, RoutedEventArgs e)
-        {
-            lock (_syncRoot)
-            {
-                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
-                {
-                    plc.Open();
-
-                    var result = plc.Read("DB1.DBW0");
-                    Label_linka_1.Content = result;
-
-                    result = plc.Read("DB1.DBW2");
-                    Label_linka_2.Content = result;
-
-                }
-            }
-        }
-
         private void Button_linka_1_Click(object sender, RoutedEventArgs e)
         {
             lock (_syncRoot)
@@ -127,16 +125,25 @@ namespace Panel
                 using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
                 {
                     plc.Open();
-
-                    var result = plc.Read("DB1.DBW0");
-                    Label_linka_1.Content = result;
-
-                    result = plc.Read("DB1.DBW2");
-                    Label_linka_2.Content = result;
+                    plc.Write("DB11.DBX12.3", true);
 
                 }
             }
 
         }
+        private void Button_linka_2_Click(object sender, RoutedEventArgs e)
+        {
+            lock (_syncRoot)
+            {
+                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                {
+                    plc.Open();
+                    plc.Write("DB19.DBX12.3", true);
+
+                }
+            }
+        }
+
+        
     }
 }
