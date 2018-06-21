@@ -26,4 +26,3 @@ C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\D
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.exe
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.pdb
 C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\bin\Debug\Panel.exe.config
-C:\Users\softw\Documents\GitHub\SOURCES\Madeta\Paletizace tray\Panel\Panel\obj\Debug\Panel.csprojAssemblyReference.cache
