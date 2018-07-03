@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Panel"
         mc:Ignorable="d"
-        Title="PANEL PALETIZACE" Height="450" Width="800" ResizeMode = "NoResize">
+        Title="PANEL PALETIZACE" Height="363.264" Width="596.47" ResizeMode = "NoResize" Icon="ikona.ico" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="-5,0,-10,0" >
     <Grid x:Name="obsah">
         <Grid.RowDefinitions>
             <RowDefinition MaxHeight="100"/>
@@ -29,7 +29,7 @@
             <Viewbox Grid.Column="1">
                 <Label x:Name="Info_linka_2" Content="Linka 2 prázdná"   Margin="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="#FF1CF906"/>
             </Viewbox>
-            </Grid>
+        </Grid>
 
         <Grid Grid.Column="1">
             <Grid.ColumnDefinitions>
@@ -46,7 +46,7 @@
             </Button>
         </Grid>
 
-       
+
         <Viewbox Grid.Column="1" Grid.Row="1">
             <Label  Content="Vyrobeno na Bosch 1:"  Padding="0" />
         </Viewbox>
