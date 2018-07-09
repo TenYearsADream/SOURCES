@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Panel"
         mc:Ignorable="d"
-        Title="PANEL PALETIZACE" Height="363.264" Width="596.47" ResizeMode = "NoResize" Icon="ikona.ico" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="-5,0,-10,0" >
+        Title="PANEL PALETIZACE" Height="363.264" Width="596.47" ResizeMode = "NoResize" Icon="ikona.ico" ScrollViewer.VerticalScrollBarVisibility="Disabled"    >
+    <Border BorderThickness="10,20,0,0" >
+
+
     <Grid x:Name="obsah">
         <Grid.RowDefinitions>
             <RowDefinition MaxHeight="100"/>
@@ -62,4 +65,5 @@
 
 
     </Grid>
+    </Border>
 </Window>

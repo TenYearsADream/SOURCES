@@ -31,7 +31,7 @@ namespace Panel
         {
             InitializeComponent();
 
-            this.SourceInitialized += MainWindow_SourceInitialized;
+          //  this.SourceInitialized += MainWindow_SourceInitialized;
 
 
             this.Width = System.Windows.SystemParameters.WorkArea.Width;
@@ -43,9 +43,10 @@ namespace Panel
             dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
-            var a = (Grid)this.Content;
-            a.Visibility = Visibility.Hidden;
-           // ResizeMode = "NoResize" 
+            //var a = (Grid)this.Content;
+            //a.Width = System.Windows.SystemParameters.WorkArea.Width;
+            //a.Visibility = Visibility.Hidden;
+            // ResizeMode = "NoResize" 
 
         }
 
@@ -75,6 +76,7 @@ namespace Panel
                         Button_linka_1.Background = Convert.ToBoolean(plc.Read("DB11.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
                         Button_linka_2.Background = Convert.ToBoolean(plc.Read("DB19.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
                     }
+                    var a = this.Parent;
                 }
                 catch(Exception)
                 {
@@ -122,7 +124,7 @@ namespace Panel
         {
             lock (_syncRoot)
             {
-                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
                 {
                     plc.Open();
                     plc.Write("DB11.DBX12.3", true);
@@ -135,7 +137,7 @@ namespace Panel
         {
             lock (_syncRoot)
             {
-                using (Plc plc = new Plc(CpuType.S71200, PLC_IP, RACK, SLOT))
+                using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
                 {
                     plc.Open();
                     plc.Write("DB19.DBX12.3", true);
