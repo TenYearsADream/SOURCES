@@ -31,7 +31,7 @@ namespace Panel
         {
             InitializeComponent();
 
-          //  this.SourceInitialized += MainWindow_SourceInitialized;
+            this.SourceInitialized += MainWindow_SourceInitialized;
 
 
             this.Width = System.Windows.SystemParameters.WorkArea.Width;
@@ -43,11 +43,7 @@ namespace Panel
             dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
-            //var a = (Grid)this.Content;
-            //a.Width = System.Windows.SystemParameters.WorkArea.Width;
-            //a.Visibility = Visibility.Hidden;
-            // ResizeMode = "NoResize" 
-
+          
         }
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
@@ -93,11 +89,7 @@ namespace Panel
         }
 
 
-        private void Window_LocationChanged(object sender, EventArgs e)
-        {
-          //  this.Left = 0;
-          //  this.Top = System.Windows.SystemParameters.WorkArea.Height / 2;
-        }
+        
 
         const int WM_SYSCOMMAND = 0x0112;
         const int SC_MOVE = 0xF010;
@@ -124,12 +116,21 @@ namespace Panel
         {
             lock (_syncRoot)
             {
-                using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
+                try
                 {
-                    plc.Open();
-                    plc.Write("DB11.DBX12.3", true);
+                    using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
+                    {
+                        plc.Open();
+                        plc.Write("DB11.DBX12.3", true);
+                        Button_linka_1.Background = Convert.ToBoolean(plc.Read("DB11.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+
+                    }
+                }
+                catch (Exception)
+                {
 
                 }
+
             }
 
         }
@@ -137,10 +138,18 @@ namespace Panel
         {
             lock (_syncRoot)
             {
-                using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
+                    try
+                    {
+                        using (Plc plc = new Plc(CpuType.S7300, PLC_IP, RACK, SLOT))
+                        {
+                            plc.Open();
+                            plc.Write("DB19.DBX12.3", true);
+                            Button_linka_2.Background = Convert.ToBoolean(plc.Read("DB19.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+
+                        }
+                    }
+                catch (Exception)
                 {
-                    plc.Open();
-                    plc.Write("DB19.DBX12.3", true);
 
                 }
             }
