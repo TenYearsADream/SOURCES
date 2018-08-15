@@ -122,7 +122,7 @@ namespace Panel
                     {
                         plc.Open();
                         plc.Write("DB11.DBX12.3", true);
-                        Button_linka_1.Background = Convert.ToBoolean(plc.Read("DB11.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+                        Button_linka_1.Background = new SolidColorBrush(Color.FromArgb(255, 255, 0, 0));
 
                     }
                 }
@@ -144,7 +144,7 @@ namespace Panel
                         {
                             plc.Open();
                             plc.Write("DB19.DBX12.3", true);
-                            Button_linka_2.Background = Convert.ToBoolean(plc.Read("DB19.DBX12.3")) ? new SolidColorBrush(Color.FromArgb(255, 255, 0, 0)) : new SolidColorBrush(Color.FromArgb(255, 221, 221, 221));
+                            Button_linka_2.Background = new SolidColorBrush(Color.FromArgb(255, 255, 0, 0));
 
                         }
                     }
