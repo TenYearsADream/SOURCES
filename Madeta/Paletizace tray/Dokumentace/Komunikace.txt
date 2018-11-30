@@ -1,0 +1,21 @@
+Vytvoøení programu na zobrazení poètu kusù a možnost spuštìní vyprázdnìní linky z terminálu:
+       - vytvoøení programu a jeho instalace, uvedení do provozu  - 16 hodin
+
+Vytvoøení funkce na zasílání tiskových pøíkazù z PLC do tiskárny BOSCH na potisk kelímkù:
+-	Analýza komunikaèního protokolu – 6 hodin
+-	Naprogramování pøeposílání tiskových pøíkazù - 8 hodin
+-	Naprogramování pøevzetí informace PLC Eprin – 4 hodiny
+
+Vytvoøení funkce na zasílání tiskových pøíkazù z PLC do tiskárny pro potisk kartonù na potisk kelímkù:
+-	Analýza komunikaèního protokolu – 4 hodin
+-	Naprogramování pøeposílání tiskových pøíkazù - 8 hodin
+-	Naprogramování pøevzetí informace PLC Eprin – 4 hodiny
+
+Umožnìní nalepení etikety ke vzdálenìjšímu rohu palety:
+-	Naprogramování zaslání druhého povelu do PLC Eprin a synchronizace s posunem palety – 6 hodin
+-	Instalace optického snímaèe pro druhou polohu a jeho konfigurace v systému – 2 hodiny
+
+
+Celkem: Software            56 hodin * 690,-   = 38 640,-
+                Elektro                  2 hodiny * 490,- =      980,-
+
