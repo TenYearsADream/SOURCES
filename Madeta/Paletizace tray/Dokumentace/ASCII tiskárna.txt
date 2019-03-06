@@ -1,0 +1,53 @@
+10.52.90.181:2101   inktiskbosch1.jh.madeta.cz             Inkoustová tiskárna na BOSCH1       
+10.52.90.182:2101   inktiskbosch2.jh.madeta.cz             Inkoustová tiskárna na BOSCH2
+
+
+
+
+Zde je pøíklad øetìzce:
+
+Zasílání do externího pole 8 znakù
+
+5B-00-0B-01-12-
+		30-38-2E-30-32-2E-31-39-
+					12-53
+
+
+5B000B0112
+		30382E30322E3139
+					12 53
+
+
+5B000A0112524F424F50414C121D                ROBOPAL
+5B000B011230362e30362e30361257              06.06.06
+
+
+
+
+Zmìna èásti textu   Komunikaèní protokol str. 51
+
+                               T  E  S  T  1
+59-00-0C-01-01-00-00-05-00-05-54-45-53-54-31-72
+
+                               I  M  A  J  E
+59-00-0C-01-01-00-00-05-00-05-49-4D-41-4A-45-1F
+
+
+
+
+Výbìr Zprávy z knihovny   Komunikaèní protokol str. 48
+
+                3
+5A-00-03-01-00-03-5B
+
+5A00030100035B
+
+
+5A-00-03-01-00-02-5A
+
+5A00030100025A
+
+
+5A-00-03-01-00-01-59
+
+5A000301000159
