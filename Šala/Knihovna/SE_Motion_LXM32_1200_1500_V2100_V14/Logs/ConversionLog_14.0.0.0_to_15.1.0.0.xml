@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="SE_Motion_LXM32_1200_1500_V2100_V14" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:10 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:12 PM" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:13 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:13 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:13 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:13 PM" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:27 PM" Debug="false">
+    <Text>Not invalidating fingerprints for library object: Axis_Ref_LXM32_1200_1500[UDT3]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:27 PM" Debug="false">
+    <Text>Not invalidating fingerprints for library object: DataSet_LXM32_1200_1500[UDT1]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:27 PM" Debug="false">
+    <Text>Not invalidating fingerprints for library object: IM0_Version[UDT804]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:27 PM" Debug="false">
+    <Text>Not invalidating fingerprints for library object: IM0_Version[UDT804]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:28 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: Init_LXM32_1200_1500[FC2]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:28 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ReadInputData_1200_1500[FC3]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: WriteOutputData_1200_1500[FC1]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: DownlDrivePar_LXM32_1200_1500[FB34]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_RdActualTorque_LXM32_1200_1500[FB45]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadActualPos_LXM32_1200_1500[FB38]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadActualVel_LXM32_1200_1500[FB37]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadAxisError_LXM32_1200_1500[FB36]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadDigInput_LXM32_1200_1500[FB41]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadDigOutput_LXM32_1200_1500[FB40]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadPar_LXM32_1200_1500[FB39]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_ReadStatus_LXM32_1200_1500[FB9]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Reset_LXM32_1200_1500[FB8]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_WriteDigOutput_LXM32_1200_1500[FB49]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_WritePar_LXM32_1200_1500[FB2]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ReadAxisWarning_LXM32_1200_1500[FB50]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ResetPar_LXM32_1200_1500[FB20]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: SetLimitSwitch_LXM32_1200_1500[FB24]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: StorePar_LXM32_1200_1500[FB51]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: UplDrivePar_LXM32_1200[FB54]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: UplDrivePar_LXM32_1500[FB13]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_AbortTrigger_LXM32_1200_1500[FB27]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Halt_LXM32_1200_1500[FB55]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Home_LXM32_1200_1500[FB29]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Jog_LXM32_1200_1500[FB28]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_MoveAbsolute_LXM32_1200_1500[FB44]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_MoveAdditive_LXM32_1200_1500[FB43]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_MoveRelative_LXM32_1200_1500[FB42]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_MoveVelocity_LXM32_1200_1500[FB47]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:29 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_SetPosition_LXM32_1200_1500[FB7]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Stop_LXM32_1200_1500[FB142]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_TorqueControl_LXM32_1200_1500[FB11]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_TouchProbe_LXM32_1200_1500[FB10]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: GearInSync_LXM32_1200_1500[FB33]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_GearIn_LXM32_1200_1500[FB26]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_GearOut_LXM32_1200_1500[FB25]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ConfAnalogOutputs_LXM32_1200_1500[FB31]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ReadAnalogInput_LXM32_1200_1500[FB6]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ReadAnalogOutput_LXM32_1200_1500[FB5]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: SetAnalogOutputMod_LXM32_1200_1500[FB19]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: WriteAnalogOutput_LXM32_1200_1500[FB18]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: AbortMotionSeq_LXM32_1200_1500[FB32]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: DownlDataSets_LXM32_1200_1500[FB35]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: RdMotionSeqStatus_LXM32_1200_1500[FB48]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: ReadDataSet_LXM32_1200_1500[FB21]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: StartMotionSeq_LXM32_1200_1500[FB22]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: UplDataSets_LXM32_1200[FB53]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: UplDataSets_LXM32_1500[FB14]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: WriteDataSet_LXM32_1200_1500[FB17]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: WriteTransCond_LXM32_1200_1500[FB16]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:30 PM" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Power_LXM32_1200_1500[FB52]</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information is being converted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information was created successfully." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="3/25/2019 1:47:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversion of the cross-reference information is finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:35 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V14.0.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="3/25/2019 1:47:35 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Professional:14.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabLibrarySucceeded" MessageClass="Success" Timestamp="3/25/2019 1:47:35 PM">
+    <Number ServiceNumber="80" MessageNumber="32" />
+    <Text FeedbackText="Library 'C:\Users\vitez\Documents\GitHub\SOURCES\Šala\Knihovna\SE_Motion_LXM32_1200_1500_V2100_V14\System\PEData.plf' was successfully upgraded and saved as library 'C:\Users\vitez\Documents\GitHub\SOURCES\Šala\Knihovna\SE_Motion_LXM32_1200_1500_V2100_V14_V15.1\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
